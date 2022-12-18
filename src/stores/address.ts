@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer'
 import { abiMap, ContractAbi } from '@/abi'
 import { getAddressInfo, getTransactions } from '@/api'
 import AppDb from '@/db'
@@ -6,7 +7,6 @@ import { SearchHistory } from '@/models/SearchHistory'
 import { Transaction } from '@/models/Transaction'
 import { Cell, parseTransaction } from '@/ton/src'
 import { callTonApi } from '@/utils/callTonApi'
-import { state } from 'fp-ts'
 import { defineStore } from 'pinia'
 
 const db = new AppDb()

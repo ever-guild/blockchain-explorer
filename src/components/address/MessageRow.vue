@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Buffer } from 'buffer'
 import { RawMessage } from '@/ton/src'
 import { Transaction } from '@/models/Transaction'
 import BN from 'bn.js'

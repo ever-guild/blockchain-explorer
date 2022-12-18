@@ -1,7 +1,8 @@
 /* eslint-disable camelcase */
+import { Buffer } from 'buffer'
 import axios from 'axios'
 import { LITE_API_ENDPOINT } from './config.js'
-import { base64ToHex, hexToAddress, dechex } from '~/utils.js'
+import { hexToAddress, dechex } from '~/utils.js'
 import {
   Address,
   Cell,
@@ -9,7 +10,6 @@ import {
   RawAccountStorage,
   RawCurrencyCollection,
   RawStorageInfo,
-  RawTransactionDescription,
 } from '@/ton/src'
 import { tonNode_blockIdExt } from 'ton-lite-client/dist/schema'
 import AppDb from '~/db'

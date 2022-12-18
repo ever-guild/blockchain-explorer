@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer'
+
 export const base64ToHex = function (str) {
   return Buffer.from(str, 'base64').toString('hex')
 }

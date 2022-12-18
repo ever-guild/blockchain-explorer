@@ -1,23 +1,17 @@
-# Ton Blockchain Explorer
+# Blockchain Explorer
 
-## Installation
+## Use
 
-```
-git clone https://github.com/catchain/tonscan.git
-cd tonscan
-npm install
-```
-
-## Building
-
-```
-cp .env.example .env
-npm run prod
+```shell
+docker run --env PROXY_ENDPOINT=wss://ws.tonlens.com \
+ --publish 127.0.0.1:3000:3000/tcp \
+ ghcr.io/everscaleguild/blockchain-explorer
+open http://localhost:3000
 ```
 
-### Testnet version
+## Develop
 
-```
-cp .env.example .env.testnet
-npm run prod_testnet
+```shell
+yarn install
+yarn dev
 ```

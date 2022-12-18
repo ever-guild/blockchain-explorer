@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Buffer } from 'buffer'
 import { abiMap } from '@/abi'
 import { getLocalAccountInfo } from '@/api'
 import { SearchHistory } from '@/models/SearchHistory'

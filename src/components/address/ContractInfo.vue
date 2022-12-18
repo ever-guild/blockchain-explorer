@@ -55,6 +55,7 @@
 </template>
 
 <script lang="ts" setup>
+import { Buffer } from 'buffer'
 import { computed } from 'vue'
 import { Address, Cell } from '@/ton/src'
 import MethodWrapper from './MethodWrapper.vue'

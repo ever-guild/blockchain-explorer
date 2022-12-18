@@ -2,31 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>TON Explorer — The Open Network</title>
+        <title>Blockchain explorer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f0f0f">
         <meta name="google" content="notranslate">
-
         <link rel="icon" href="/favicon.svg">
-
+        <script src="/env.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="app"></div>
-
-        <script>window.global = window;</script>
-        <script type="module">
-            import { Buffer } from "buffer";
-            
-            window.Buffer = Buffer;
-        </script>
-        <script  type="module" src="./src/app.ts"></script>
+        <script type="module" src="./src/app.ts"></script>
     </body>
 </html>

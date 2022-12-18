@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer'
 import axios from 'axios'
 import fs from 'fs'
 import { LiteClient, LiteRoundRobinEngine, LiteSingleEngine } from 'ton-lite-client'

@@ -22,6 +22,7 @@
 </template>
 
 <script setup lang="ts">
+import { Buffer } from 'buffer'
 import { getTransaction } from '@/api'
 import { Transaction } from '@/models/Transaction'
 import { Cell, parseTransaction } from '@/ton/src'

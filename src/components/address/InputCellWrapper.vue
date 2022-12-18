@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { InputArg, OutputArg, CellContent } from '@/abi'
+import { Buffer } from 'buffer'
+import { InputArg, CellContent } from '@/abi'
 import { Cell } from '@/ton/src'
 import BN from 'bn.js'
-import { watch, PropType, ref, toRaw, reactive } from 'vue'
+import { watch, PropType, ref, reactive } from 'vue'
 
 const props = defineProps({
   input: { type: Object as PropType<InputArg | CellContent>, required: true },

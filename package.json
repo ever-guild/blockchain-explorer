@@ -9,8 +9,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "docker-build": "docker build -t ghcr.io/everscaleguild/blockchain-explorer .",
-    "docker-push": "docker push ghcr.io/everscaleguild/blockchain-explorer",
+    "docker-build": "docker build -t ghcr.io/ever-guild/blockchain-explorer .",
+    "docker-push": "docker push ghcr.io/ever-guild/blockchain-explorer",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

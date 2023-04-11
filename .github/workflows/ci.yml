@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ghcr.io/everscaleguild/blockchain-explorer:latest
+          tags: ghcr.io/ever-guild/blockchain-explorer:latest
